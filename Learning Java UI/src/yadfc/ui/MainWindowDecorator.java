@@ -17,10 +17,11 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class MainWindow {
-	private Stage stage;
+public class MainWindowDecorator {
 	
-	public MainWindow (Stage mainStage) {
+	public static Stage decorate (Stage mainStage) {
+		Stage stage;
+
 		stage = mainStage;
 		stage.setTitle("YADFC");
 
@@ -64,9 +65,7 @@ public class MainWindow {
 		});
 		Scene scene = new Scene(grid, 300, 275);
 		stage.setScene(scene);
-	}
-	
-	public void show() {
-		stage.show();
+		
+		return stage;
 	}
 }

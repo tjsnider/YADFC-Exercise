@@ -2,7 +2,7 @@ package yadfc.operations;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import yadfc.ui.MainWindow;
+import yadfc.ui.MainWindowDecorator;
 
 public class Driver extends Application {
 
@@ -13,8 +13,8 @@ public class Driver extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		// TODO Auto-generated method stub
-		MainWindow main = new MainWindow(primaryStage);
-		main.show();
+		primaryStage = MainWindowDecorator.decorate(primaryStage);
+		primaryStage.show();
 	}
 
 }
