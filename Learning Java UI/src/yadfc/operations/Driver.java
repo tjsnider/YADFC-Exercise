@@ -1,8 +1,8 @@
-package operations;
+package yadfc.operations;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import ui.MainWindow;
+import yadfc.ui.MainWindow;
 
 public class Driver extends Application {
 
