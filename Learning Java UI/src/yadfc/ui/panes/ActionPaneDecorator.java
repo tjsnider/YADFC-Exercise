@@ -1,5 +1,9 @@
 package yadfc.ui.panes;
 
-public class ActionPaneDecorator {
+import javafx.scene.layout.VBox;
 
+public class ActionPaneDecorator {
+	public static VBox decorate(VBox pane) {
+		return pane;
+	}
 }

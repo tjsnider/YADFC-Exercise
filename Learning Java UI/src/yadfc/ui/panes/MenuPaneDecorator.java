@@ -1,5 +1,9 @@
 package yadfc.ui.panes;
 
-public class MenuPaneDecorator {
+import javafx.scene.layout.HBox;
 
+public class MenuPaneDecorator {
+	public static HBox decorate(HBox menu) {
+		return menu;
+	}
 }

@@ -1,5 +1,9 @@
 package yadfc.ui.panes;
 
-public class UpdatesPaneDecorator {
+import javafx.scene.text.TextFlow;
 
+public class UpdatesPaneDecorator {
+	public static TextFlow decorate (TextFlow pane) {
+		return pane;
+	}
 }
