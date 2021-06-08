@@ -5,8 +5,11 @@
 2. Use realistic food/water/resource consumption where possible
 
 ##Specifics##
+
 ###1. For performance's sake, process in parallel where possible###
+
 ###2. Use realistic food/water/resource consumption where possible###
+
 Realistic consumption implies a realistic--if not real-world accurate--time, distance, activity, and unit-of-measure scales. 
 It would be nice to be real-world accurate whenever possible, but accurate doesn't always aid playability. 
 Also, having mythical creatures presupposes a certain looseness of interpretation to the term "accurate" anyway.
